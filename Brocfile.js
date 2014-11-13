@@ -4,6 +4,10 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp();
 
+app.import('bower_components/ember-indexeddb-adapter/dist/ember_indexeddb_adapter.js');
+app.import('bower_components/moment/moment.js');
+app.import('bower_components/moment-timezone/builds/moment-timezone-with-data-2010-2020.js');
+
 // Use `app.import` to add additional libraries to the generated
 // output files.
 //
