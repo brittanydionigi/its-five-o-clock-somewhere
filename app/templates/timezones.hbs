@@ -1,16 +1,34 @@
 {{outlet}}
+<br />
+<section role="region">
+    <header>
+        <h2>Available Timezones</h2>
+    </header>
+</section>
 
-<h2>Add Timezone</h2>
+<div class="padded">
+{{ view Ember.Select content=timezones selection=selectedTimezone
+   optionValuePath='content.offset' optionLabelPath='content.name'}}
 
-<p>{{ view Ember.Select content=timezones selection=selectedTimezone
-   optionValuePath='content.offset' optionLabelPath='content.name'}}</p>
+<div class="bb-docs skin-organic">
+    <button {{action 'add'}}>Add Timezone</button></p>
+</div>
+</div>
 
-<p><button {{action 'add'}}>Add Timezone</button></p>
+<section role="region">
+    <header>
+        <h2>My Timezones</h2>
+    </header>
+</section>
 
-<h2>My Timezones</h2>
-
-<ul>
-{{#each model}}
-  <li>{{name}} <button {{action 'remove' this}}>Delete</button></li>
+<section data-type="list">
+    <ul style="padding-bottom: 70px">
+    {{#each model}}
+  <li>{{name}} <div style="display: inline-block; margin-top: -15px !important; float: right"  {{action 'remove' this}}><label class="pack-checkbox">
+          <input checked="" type="checkbox">
+          <span></span>
+        </label> </div></li>
 {{/each}}
-</ul>
+    </ul>
+</section>
+

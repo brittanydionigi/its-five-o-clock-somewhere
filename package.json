@@ -1,6 +1,7 @@
 {
   "name": "its-five-o-clock-somewhere",
-  "version": "0.0.0",
+  "description": "Simple FxOS clock application with timezone support.",
+  "version": "0.0.1",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -15,7 +16,10 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": {
+    "name": "Mozilla",
+    "url": "https://www.mozilla.org/en-US/"
+  },
   "license": "MIT",
   "devDependencies": {
     "body-parser": "^1.2.0",

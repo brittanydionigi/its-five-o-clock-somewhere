@@ -1,7 +1,16 @@
-<h2>Local Time: {{localTime}}</h2>
+<br />
+<section role="region">
+    <header>
+        <h2>Local Time: {{localTime}}</h2>
+    </header>
+</section>
 
-<p>
-{{#each model}}
-  <h3>{{name}}: {{time}}</h3>
-{{/each}}
-</p>
+
+
+<section data-type="list">
+    <ul>
+    {{#each model}}
+      <li>{{name}}: <strong>{{time}}</strong></li>
+    {{/each}}
+    </ul>
+</section>
