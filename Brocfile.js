@@ -4,6 +4,9 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp();
 
+app.import('bower_components/localforage/dist/localforage.js');
+app.import('bower_components/ember-localforage-adapter/localforage_adapter.js');
+
 // Use `app.import` to add additional libraries to the generated
 // output files.
 //
