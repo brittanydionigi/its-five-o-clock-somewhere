@@ -1,0 +1,88 @@
+* { font-family: 'FiraSans'; }
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('fonts/FiraSans/FiraSans-Regular.eot');
+  src: url('fonts/FiraSans/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/FiraSans/FiraSans-Regular.woff') format('woff'),
+       url('fonts/FiraSans/FiraSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FiraSans';
+  src: url('fonts/FiraSans/FiraSans-Light.eot');
+  src: url('fonts/FiraSans/FiraSans-Light.eot?#iefix') format('embedded-opentype'),
+       url('fonts/FiraSans/FiraSans-Light.woff') format('woff'),
+       url('fonts/FiraSans/FiraSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FiraSans';
+  src: url('fonts/FiraSans/FiraSans-Medium.eot');
+  src: url('fonts/FiraSans/FiraSans-Medium.eot?#iefix') format('embedded-opentype'),
+       url('fonts/FiraSans/FiraSans-Medium.woff') format('woff'),
+       url('fonts/FiraSans/FiraSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FiraSans';
+  src: url('fonts/FiraSans/FiraSans-Bold.eot');
+  src: url('fonts/FiraSans/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/FiraSans/FiraSans-Bold.woff') format('woff'),
+       url('fonts/FiraSans/FiraSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0px;
+}
+
+h1 {
+    font-style: italic;
+    color: #fff;
+    background-color: #F97C17;
+    padding: 0.8rem 3rem;
+    font-weight: 400;
+}
+
+h2 {
+    background-color: #f8f8f8;
+    padding: 0.8rem 3rem;
+    font-weight: 400;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0px 0.8rem;
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0.4rem;
+}
+
+button {
+    height: 2rem;
+    margin: 0px 0px 1rem;
+    padding: 0px 1.2rem;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background: none repeat scroll 0% 0% #4C9ED9;
+    border: medium none;
+    border-radius: 2rem;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    outline: medium none;
+}
