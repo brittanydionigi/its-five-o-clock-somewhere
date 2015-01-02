@@ -67,7 +67,7 @@ li {
 
 button {
     height: 2rem;
-    margin: 0px 0px 1rem;
+    margin: 10px;
     padding: 0px 1.2rem;
     -moz-box-sizing: border-box;
     display: inline-block;
@@ -85,4 +85,9 @@ button {
     text-align: center;
     text-decoration: none;
     outline: medium none;
+}
+
+select {
+  padding: 10px;
+  margin: 5px 10px;
 }
