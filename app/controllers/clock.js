@@ -20,7 +20,7 @@ export default Ember.Controller.extend({
  
             _this.updateTime();
         }, 1000);
-    }.on('init'),
+    },
 
    localTime: moment().format('h:mm:ss a')
 });
