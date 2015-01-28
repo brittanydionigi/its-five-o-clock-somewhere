@@ -15,6 +15,6 @@
     "moment": "~2.8.3",
     "moment-timezone": "~0.2.5",
     "qunit": "~1.15.0",
-    "ember-localforage-adapter": "~0.5.2"
+    "ember-localforage-adapter": "~0.6.1"
   }
 }
