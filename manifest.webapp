@@ -3,13 +3,13 @@
   "name": "its-five-o-clock-somewhere",
   "description": "Simple FxOS clock application with timezone support.",
   "icons": {
-    "32": "/assets/images/icons/icon-32.png",
-    "60": "/assets/images/icons/icon-60.png",
-    "64": "/assets/images/icons/icon-64.png",
-    "90": "/assets/images/icons/icon-90.png",
-    "120": "/assets/images/icons/icon-120.png",
-    "128": "/assets/images/icons/icon-128.png",
-    "256": "/assets/images/icons/icon-256.png"
+    "32": "https://raw.githubusercontent.com/brittanystoroz/its-five-o-clock-somewhere/gh-pages/assets/images/icons/icon-32.png",
+    "60": "https://raw.githubusercontent.com/brittanystoroz/its-five-o-clock-somewhere/gh-pages/assets/images/icons/icon-60.png",
+    "64": "https://raw.githubusercontent.com/brittanystoroz/its-five-o-clock-somewhere/gh-pages/assets/images/icons/icon-64.png",
+    "90": "https://raw.githubusercontent.com/brittanystoroz/its-five-o-clock-somewhere/gh-pages/assets/images/icons/icon-90.png",
+    "120": "https://raw.githubusercontent.com/brittanystoroz/its-five-o-clock-somewhere/gh-pages/assets/images/icons/icon-120.png",
+    "128": "https://raw.githubusercontent.com/brittanystoroz/its-five-o-clock-somewhere/gh-pages/assets/images/icons/icon-128.png",
+    "256": "https://raw.githubusercontent.com/brittanystoroz/its-five-o-clock-somewhere/gh-pages/assets/images/icons/icon-256.png"
   },
   "developer": {
     "name": "Mozilla",
