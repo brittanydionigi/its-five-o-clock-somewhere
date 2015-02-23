@@ -15,9 +15,8 @@
     "name": "Mozilla",
     "url": "https://www.mozilla.org/en-US/"
   },
-  "launch_path": "/",
+  "launch_path": "/its-five-o-clock-somewhere/index.html",
   "installs_allowed_from": ["https://marketplace.firefox.com", "*"],
-  "appcache_path": "/manifest.appcache",
   "permissions": {
   }
 }
