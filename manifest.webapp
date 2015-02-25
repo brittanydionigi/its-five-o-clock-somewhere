@@ -1,6 +1,6 @@
 {
-  "version": "0.0.1",
-  "name": "its-five-o-clock-somewhere",
+  "version": "0.0.2",
+  "name": "five-pm",
   "description": "Simple FxOS clock application with timezone support.",
   "icons": {
     "32": "https://raw.githubusercontent.com/brittanystoroz/its-five-o-clock-somewhere/gh-pages/assets/images/icons/icon-32.png",
